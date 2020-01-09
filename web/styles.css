@@ -1,0 +1,11 @@
+table {
+  table-layout: fixed;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#main-row {
+  align-items: baseline;
+  padding: 1rem 0px;
+}

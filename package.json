@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start-web": "parcel web/index.html",
+    "start-node": "node server/main.js"
+  },
+  "dependencies": {
+    "ipfs": "^0.40.0",
+    "ipfs-pubsub-room": "^1.4.1",
+    "mithril": "^2.0.4"
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ]
+}
