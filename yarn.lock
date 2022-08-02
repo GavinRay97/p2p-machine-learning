@@ -1344,7 +1344,7 @@ debug@~3.1.0:
 decamelize@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
-  integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
+  integrity sha512-z2S+W9X73hAUUki+N+9Za2lBlun89zigOyGrsax+KUQ6wKW4ZoWpEYBkGhQjwAjjDCkWxhY0VKEhk8wzY7F5cA==
 
 decompress-response@^3.3.0:
   version "3.3.0"
@@ -2979,7 +2979,7 @@ iso-stream-http@~0.1.2:
     inherits "^2.0.1"
     readable-stream "^3.1.1"
 
-iso-url@^0.4.4, iso-url@~0.4.4, iso-url@~0.4.6:
+iso-url@~0.4.4, iso-url@~0.4.6:
   version "0.4.6"
   resolved "https://registry.yarnpkg.com/iso-url/-/iso-url-0.4.6.tgz#45005c4af4984cad4f8753da411b41b74cf0a8a6"
   integrity sha512-YQO7+aIe6l1aSJUKOx+Vrv08DlhZeLFIVfehG2L29KLSEb9RszqPXilxJRVpp57px36BddKR5ZsebacO5qG0tg==
@@ -4985,11 +4985,11 @@ pull-utf8-decoder@^1.0.2:
   resolved "https://registry.yarnpkg.com/pull-utf8-decoder/-/pull-utf8-decoder-1.0.2.tgz#a7afa2384d1e6415a5d602054126cc8de3bcbce7"
   integrity sha1-p6+iOE0eZBWl1gIFQSbMjeO8vOc=
 
-"pull-ws@github:hugomrdias/pull-ws#fix/bundle-size":
-  version "3.3.1"
-  resolved "https://codeload.github.com/hugomrdias/pull-ws/tar.gz/8e2ce0bb3b1cd6804828316e937fff8e0bef6225"
+pull-ws@hugomrdias/pull-ws#fix/bundle-size:
+  version "3.3.2"
+  uid "9c1a9cf612ff6d1a030b763cb64b02922ae3c824"
+  resolved "https://codeload.github.com/hugomrdias/pull-ws/tar.gz/9c1a9cf612ff6d1a030b763cb64b02922ae3c824"
   dependencies:
-    iso-url "^0.4.4"
     relative-url "^1.0.2"
     safe-buffer "^5.1.1"
     ws "^1.1.0"
@@ -6005,9 +6005,9 @@ yallist@^3.0.0, yallist@^3.0.2, yallist@^3.0.3:
   integrity sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==
 
 yargs-parser@^15.0.0:
-  version "15.0.0"
-  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-15.0.0.tgz#cdd7a97490ec836195f59f3f4dbe5ea9e8f75f08"
-  integrity sha512-xLTUnCMc4JhxrPEPUYD5IBR1mWCK/aT6+RJ/K29JY2y1vD+FhtgKK0AXRWvI262q3QSffAQuTouFIKUuHX89wQ==
+  version "15.0.3"
+  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-15.0.3.tgz#316e263d5febe8b38eef61ac092b33dfcc9b1115"
+  integrity sha512-/MVEVjTXy/cGAjdtQf8dW3V9b97bPN7rNn8ETj6BmAQL7ibC7O1Q9SPJbGjgh3SlwoBNXMzj/ZGIj8mBgl12YA==
   dependencies:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
